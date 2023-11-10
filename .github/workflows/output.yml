@@ -1,0 +1,8 @@
+name: Output informaton
+on: workflow_dispatch
+jobs:
+  info:
+    runs-on: macos-latest
+    steps:
+      - name: Output GitHub context
+        run: echo "${{ github }}"
