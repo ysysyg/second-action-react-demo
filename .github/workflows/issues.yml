@@ -1,6 +1,6 @@
 name: Handle issues
 on: issues
-job:
+jobs:
   output-info:
     runs-on: macos-latest
     steps:
